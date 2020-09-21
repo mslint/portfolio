@@ -1,0 +1,30 @@
+internal/modules/cjs/loader.js:969
+  throw err;
+  ^
+
+Error: Cannot find module '../controllers/home'
+Require stack:
+- /home/bitnami/blog/routes/index.js
+- /home/bitnami/blog/app.js
+- /home/bitnami/blog/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blog/routes/index.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blog/routes/index.js',
+    '/home/bitnami/blog/app.js',
+    '/home/bitnami/blog/bin/www'
+  ]
+}
+[0mGET / [32m200 [0m13.525 ms - 1762[0m
+[0mGET /blogadd [32m200 [0m2.255 ms - 1733[0m
+[0mGET /bloglist [36m304 [0m1.434 ms - -[0m
+[0mGET / [36m304 [0m1.257 ms - -[0m
