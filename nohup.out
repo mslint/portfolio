@@ -28,3 +28,4 @@ Require stack:
 [0mGET /blogadd [32m200 [0m2.255 ms - 1733[0m
 [0mGET /bloglist [36m304 [0m1.434 ms - -[0m
 [0mGET / [36m304 [0m1.257 ms - -[0m
+[0mHEAD /robots.txt [33m404 [0m1.637 ms - 883[0m
