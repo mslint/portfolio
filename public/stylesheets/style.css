@@ -9,10 +9,16 @@ body {
 
   padding-bottom: 40px;
 
-  color: #5a5a5a;
+  color: black;
+  opacity: 0.9;
 
 }
 
+label {
+
+  background-color: white;
+  font-weight: bold;
+}
 
 
 

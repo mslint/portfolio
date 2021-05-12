@@ -1,0 +1,20 @@
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>{{vm.title}}</h1>
+	</div>
+	<h3>Not a member? Please <a href="/register?page={{ vm.returnPage }}">register</a> first.</h2>
+ 	<page-header content="vm.pageHeader"></page-header>
+      			<form ng-submit="vm.onSubmit()">
+        			<div role="alert" ng-show="vm.formError" class="alert alert-danger">{{ vm.formError }}</div>
+        			<div class="form-group">
+          				<label for="email">Email address</label>
+          				<input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="vm.credentials.email">
+        			</div>
+        			<div class="form-group">
+          				<label for="password">Password</label>
+         				<input type="password" class="form-control" id="password" placeholder="Password" ng-model="vm.credentials.password">
+        			</div>
+        			<button type="submit">Sign in</button>
+      			</form>
+</div>
